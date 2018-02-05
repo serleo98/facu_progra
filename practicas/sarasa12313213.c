@@ -7,10 +7,10 @@
 
 void  vectorRND(int vector[]);
 int main() {
-	int arry[ARRAYMAX],f;
+	int arry[ARRAYMAX],f=0;
 	vectorRND(arry);
 
-	for (f = 0;f>ARRAYMAX; f++)
+	for (f = 0;f<ARRAYMAX; f++)
 		printf("%4d", arry[f]);
 	printf("\n");
 
